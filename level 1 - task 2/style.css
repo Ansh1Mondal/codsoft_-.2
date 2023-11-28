@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Heebo&family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.home-page {
+  color: white;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  /* align-items: center; */
+}
+.navbar {
+  background-color: black;
+  /* background-color: antiquewhite; */
+  /* height: 15%; */
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.navbar ul li {
+  padding-left: 200px;
+}
+
+.home-body {
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.photo {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  /* background-color: gray; */
+}
+.intro {
+  color: white;
+  padding: 50px;
+  width: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: gray;
+}
+.photo img {
+  position: fixed;
+  width: 50rem;
+  height: 60rem;
+  opacity: 70%;
+}
+
+.about-page {
+  background-color: gray;
+
+  /* color: white; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+}
+
+.about-heading h1 {
+  opacity: 60%;
+  font-size: 200px;
+}
+
+.about-body {
+  background-color: white;
+  color: gray;
+}
+
+.project-page {
+  /* color: white; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+}
+
+.project-heading h1 {
+  opacity: 60%;
+  font-size: 200px;
+}
+
+.project-body {
+  /* background-color: gray; */
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  align-items: center;
+  justify-items: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-rows: 80% 20%;
+
+  align-items: center;
+  justify-items: center;
+  background-color: gray;
+  width: 80%;
+  height: 80%;
+}
+
+.card-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  /* background-color: white; */
+  color: white;
+}
+
+.contact-page {
+  background-color: gray;
+
+  /* color: white; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+}
+.contact-heading h1 {
+  opacity: 60%;
+  font-size: 200px;
+}
+.contact-body {
+  color: white;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+}
+.contact-form {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+.mailid {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 5px;
+  border: none;
+}
+.form-message textarea {
+  border: none;
+  border-radius: 5px;
+}
+.form-btn button {
+  width: 7rem;
+  height: 2rem;
+  border: none;
+  color: grey;
+  background-color: white;
+}
+.contact-footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(92, 92, 92);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+}
+.footer-right i {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding: 20px;
+}
+
+.to-top-btn {
+  position: fixed;
+
+  left: 3rem;
+  bottom: 3rem;
+}
+.to-top-btn button {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 3rem;
+  /* font-size: 30px; */
+  border: none;
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+}
